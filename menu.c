@@ -8,11 +8,11 @@ void menu()
 
     printf("\n");
     printf("-----------------------------------------------\n");
-    printf("                 MENU DE OPÇÕES                \n");
+    printf("                 MENU DE OPÃ‡Ã•ES                \n");
     printf("-----------------------------------------------\n");
     printf("\n");
 
-    scanf("d%",&escolha);
+    scanf("%d",&escolha);
 
     switch(escolha)
     {
