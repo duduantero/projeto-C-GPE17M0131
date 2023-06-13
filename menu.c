@@ -12,15 +12,17 @@ void menu()
     printf("-----------------------------------------------\n");
     printf("\n");
 
+    printf("1 - Cadastrar produto");
+
     scanf("%d",&escolha);
 
     switch(escolha)
     {
     case 1:
         system("cls");
-        printf();
+        testeCadastro();
         break;
-    case 2:
+    default:
         system("cls");
         printf();
         break;
