@@ -1,0 +1,6 @@
+#ifndef LISTARPRODUTOS_H_INCLUDED
+#define LISTARPRODUTOS_H_INCLUDED
+
+void listarProdutos();
+
+#endif // LISTARPRODUTOS_H_INCLUDED

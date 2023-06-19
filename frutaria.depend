@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1687200714 source:e:\frutaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"welcome.h"
+
+1686686563 e:\frutaria\welcome.h
+
+1687211280 source:e:\frutaria\menu.c
+	<stdio.h>
+	<locale.h>
+	"menu.h"
+	"cadastrarFornecedor.h"
+	"cadastrarProduto.h"
+	"listarFornecedores.h"
+	"listarProdutos.h"
+	"listarProdutosEstado.h"
+
+1686686457 e:\frutaria\menu.h
+
+1686686654 e:\frutaria\cadastrarfornecedor.h
+
+1687200721 source:e:\frutaria\welcome.c
+	<locale.h>
+	"welcome.h"
+	"cadastrarFornecedor.h"
+	"cadastrarProduto.h"
+	"menu.h"
+
+1686686774 e:\frutaria\cadastrarproduto.h
+
+1687210864 source:e:\frutaria\cadastrarfornecedor.c
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	<string.h>
+	"cadastrarFornecedor.h"
+	<locale.h>
+
+1687211190 source:e:\frutaria\cadastrarproduto.c
+	<stdio.h>
+	<locale.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	<string.h>
+	"cadastrarProduto.h"
+	"listarFornecedoresP.h"
+	"menu.h"
+
+1687206809 source:e:\frutaria\listarfornecedores.c
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	"listarFornecedores.h"
+	<locale.h>
+
+1687200128 e:\frutaria\listarfornecedores.h
+
+1687200402 e:\frutaria\listarprodutos.h
+
+1687202837 source:e:\frutaria\listarprodutos.c
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	"listarProdutos.h"
+
+1687202969 e:\frutaria\listarprodutosestado.h
+
+1687205444 source:e:\frutaria\listarprodutosestado.c
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	"listarProdutosEstado.h"
+
+1687206529 e:\frutaria\listarfornecedoresp.h
+
+1687206811 source:e:\frutaria\listarfornecedoresp.c
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	<locale.h>
+	"listarFornecedoresP.h"
+
+1687211850 source:e:\frutaria\listarprodutosfornecedor.c
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	<locale.h>
+	"listarProdutosFornecedor.h"
+
+1687209090 e:\frutaria\listarprodutosfornecedor.h
+
