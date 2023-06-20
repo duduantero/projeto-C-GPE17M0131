@@ -19,7 +19,7 @@ void listarFornecedores() {
     MYSQL conexao;
     mysql_init(&conexao);
 
-    if (!mysql_real_connect(&conexao, "127.0.0.1", "root", "", "test", 0, NULL, 0)) {
+    if (!mysql_real_connect(&conexao, "127.0.0.1", "root", "", "frutaria", 0, NULL, 0)) {
         printf("Erro ao conectar ao banco de dados: %s\n", mysql_error(&conexao));
         return 1;
     }

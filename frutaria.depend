@@ -6,7 +6,7 @@
 
 1686686563 e:\frutaria\welcome.h
 
-1687211280 source:e:\frutaria\menu.c
+1687277749 source:e:\frutaria\menu.c
 	<stdio.h>
 	<locale.h>
 	"menu.h"
@@ -15,6 +15,7 @@
 	"listarFornecedores.h"
 	"listarProdutos.h"
 	"listarProdutosEstado.h"
+	"estadoMaisCaro.h"
 
 1686686457 e:\frutaria\menu.h
 
@@ -29,7 +30,7 @@
 
 1686686774 e:\frutaria\cadastrarproduto.h
 
-1687210864 source:e:\frutaria\cadastrarfornecedor.c
+1687282814 source:e:\frutaria\cadastrarfornecedor.c
 	<stdio.h>
 	<windows.h>
 	<winsock2.h>
@@ -49,7 +50,7 @@
 	"listarFornecedoresP.h"
 	"menu.h"
 
-1687206809 source:e:\frutaria\listarfornecedores.c
+1687281431 source:e:\frutaria\listarfornecedores.c
 	<stdio.h>
 	<windows.h>
 	<winsock2.h>
@@ -79,7 +80,7 @@
 
 1687206529 e:\frutaria\listarfornecedoresp.h
 
-1687206811 source:e:\frutaria\listarfornecedoresp.c
+1687281438 source:e:\frutaria\listarfornecedoresp.c
 	<stdio.h>
 	<windows.h>
 	<winsock2.h>
@@ -87,7 +88,7 @@
 	<locale.h>
 	"listarFornecedoresP.h"
 
-1687211850 source:e:\frutaria\listarprodutosfornecedor.c
+1687213509 source:e:\frutaria\listarprodutosfornecedor.c
 	<stdio.h>
 	<windows.h>
 	<winsock2.h>
@@ -96,4 +97,24 @@
 	"listarProdutosFornecedor.h"
 
 1687209090 e:\frutaria\listarprodutosfornecedor.h
+
+1687287789 source:e:\frutaria\estadomaiscaro.c
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"estadoMaisCaro.h"
+	"menu.h"
+
+1687277255 e:\frutaria\estadomaiscaro.h
+
+1687289626 source:e:\frutaria\informarfornecedor.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<mysql.h>
+	<locale.h>
 

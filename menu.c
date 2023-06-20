@@ -6,6 +6,8 @@
 #include "listarFornecedores.h"
 #include "listarProdutos.h"
 #include "listarProdutosEstado.h"
+#include "estadoMaisCaro.h"
+
 
 void menu() {
     setlocale(LC_ALL, "Portuguese");
@@ -23,7 +25,7 @@ void menu() {
     printf("4 - Listar produtos\n");
     printf("5 - Listar produtos por Estado\n");
     printf("6 - Listar produtos por Fornecedor\n");
-
+    printf("7 - Apresentar o(s) estado(s) onde está registrado o produto mais caro \n");
     scanf("%d", &escolha);
     getchar();
     switch (escolha) {
@@ -50,6 +52,10 @@ void menu() {
         case 6:
             system("cls");
             listarProdutosFornecedor();
+            break;
+        case 7:
+            system("cls");
+            estadoMaisCaro();
             break;
         default:
             printf("Opção incorreta\n");

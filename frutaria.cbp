@@ -43,6 +43,22 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="listarFornecedores.h" />
+		<Unit filename="listarFornecedoresP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listarFornecedoresP.h" />
+		<Unit filename="listarProdutos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listarProdutos.h" />
+		<Unit filename="listarProdutosEstado.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listarProdutosEstado.h" />
+		<Unit filename="listarProdutosFornecedor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listarProdutosFornecedor.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
