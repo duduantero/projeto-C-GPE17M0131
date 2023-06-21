@@ -2,7 +2,7 @@
 
 > Sistema desenvolvido para matéria de Algoritmos e Programação estruturada do curso de Engenharia de Software da Universidade Católica de Brasília.
 
-![prewview](https://discord.com/channels/@me/973629987192184952/1121133935448051885)
+![prewview](https://cdn.discordapp.com/attachments/973629987192184952/1121133935347368016/image.png)
 
 ## 🛠 Tecnologias
 
