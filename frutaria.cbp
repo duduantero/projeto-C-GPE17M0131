@@ -39,6 +39,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="cadastrarProduto.h" />
+		<Unit filename="estadoMaisCaro.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="estadoMaisCaro.h" />
+		<Unit filename="informarFornecedor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="informarFornecedor.h" />
 		<Unit filename="listarFornecedores.c">
 			<Option compilerVar="CC" />
 		</Unit>

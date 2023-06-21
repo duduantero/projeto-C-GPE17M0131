@@ -7,6 +7,10 @@
 #include "listarProdutos.h"
 #include "listarProdutosEstado.h"
 #include "estadoMaisCaro.h"
+#include "fornecedorMaisBarato.h"
+#include "listarProdutosCresc.h"
+#include "listarProdutosLucro.h"
+#include "buscarFornecedor.h"
 
 
 void menu() {
@@ -26,6 +30,12 @@ void menu() {
     printf("5 - Listar produtos por Estado\n");
     printf("6 - Listar produtos por Fornecedor\n");
     printf("7 - Apresentar o(s) estado(s) onde está registrado o produto mais caro \n");
+    printf("8 - Apresentar o(s) fornecedor(s) onde está registrado o produto mais barato \n");
+    printf("9 - Listar todos os produtos em ordem crescente de valor \n");
+    printf("10 - Listar todos os produtos em ordem crescente de maior valor do lucro\n");
+    printf("11 - Buscar fornecedor\n");
+
+
     scanf("%d", &escolha);
     getchar();
     switch (escolha) {
@@ -57,8 +67,25 @@ void menu() {
             system("cls");
             estadoMaisCaro();
             break;
+        case 8:
+            system("cls");
+            fornecedorMaisBarato();
+            break;
+        case 9:
+            system("cls");
+            listarProdutosCresc();
+            break;
+        case 10:
+            system("cls");
+            listarProdutosLucro();
+            break;
+        case 11:
+            system("cls");
+            buscarFornecedor();
+            break;
         default:
             printf("Opção incorreta\n");
+            menu();
             break;
     }
 }

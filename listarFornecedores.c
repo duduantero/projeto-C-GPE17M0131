@@ -51,13 +51,14 @@ void listarFornecedores() {
     mysql_free_result(resultado);
     mysql_close(&conexao);
 
-        printf("\n");
+    printf("\n");
     printf("1 - Retornar ao Menu principal\n");
     int escolha = 0;
 
     scanf("%d", &escolha);
     getchar();
-    switch (escolha) {
+    switch (escolha)
+    {
     case 1:
         system("cls");
         menu();
